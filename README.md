@@ -8,6 +8,12 @@ Repository to showcase an iOS 14 issue with Bulgarian keyboards, including a wor
 3. Focus the text field, make sure the virtual keyboard is shown.
 4. If it doesn't crash immediately, tap on the globe (to change the language) in the virtual keyboard until it does.
 
+## To validate the culprit:
+
+Comment this line and notice it doesn't crash anymore:
+
+https://github.com/diegoreymendez/BulgarianKeyboardCrash/blob/9eb70cee80cc2907a395eb44c72ca75c3e3e2b58/TestCrash/ViewController.swift#L22
+
 ## To test the workaround:
 
 Uncomment these lines:
